@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/fondo6.jpg);
+
+}
+main{
+    height: 100%;
+}
+.navbar{
+    padding: 2rem;
+}
+.letraNav{
+    color: white;
+    font-size: x-large;
+}
+#titulos{
+    margin-top: 180px;
+    margin-left: 60px;
+}
+#nombre{
+    font-size: 2.5rem;
+    color: white;
+}
+#dw{
+    font-size: larger;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+ }
+ #textoSobreMi{
+    color: white;
+    font-size: 1.15rem;}
+
+#tituloSobreMi{
+        color: white;
+    }
+ #sectionSobreMi{
+    margin-top: 4rem;
+    color: white;
+ }
+#foto1{
+padding: 2rem;
+ }
+ #foto2{
+    width: 480px;
+    height: 480px;
+    margin-left: 2rem;
+    border-radius: 10px;
+}
+.primeraLinea{
+    padding: 3rem;
+}
+.segundaLinea{
+    padding: 3rem;
+}
+
+.shadow-container {
+    background-color: rgba(255, 255, 255, .4);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+#fotoClienteUno{
+    margin-top: 3rem;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+#fotoClienteDos{
+    margin-top: 3rem;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden; 
+    margin-bottom: 3rem;
+}
+#fotoClienteTres{
+    margin-top: 3rem;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 3rem; 
+}
+.clientesp{
+    background-color: rgba(255, 255, 255, .4);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+
+}
+#tituloContacto{
+    color: white;
+    text-align: center;
+    margin-top: rem;
+}
+.textoContacto{
+    color: white;
+    margin-top: 2rem;
+}
+.contenido{
+    text-align: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+label{
+    color: white;
+}
+#boton{
+    background-color: black;
+}
+.contenidoContacto{
+    text-align: center;
+    align-items: center;
+}
+#sectionContacto{
+    margin-top: 4rem;
+}
+#footerIndex{
+    margin-top: 2rem;
+}
+#footerContacto{
+    margin-top: 2rem;
+}
+#footerSobre{
+    margin-top: 1.5rem;
+}
+#footerClientes{
+    margin-top: 5rem;
+}
+#tituloClientes{
+    text-align: center;
+    color: white;
+}
+#tituloServicios{
+    text-align: center;
+    color: white;
+}
