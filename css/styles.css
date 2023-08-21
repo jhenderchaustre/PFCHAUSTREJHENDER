@@ -1,0 +1,141 @@
+body {
+  background-image: url(../images/endless-constellation.svg);
+  color: white;
+}
+
+#titulos {
+  margin-top: 180px;
+  margin-left: 60px;
+}
+
+#tituloClientes {
+  text-align: center;
+}
+
+li {
+  padding: 2rem;
+  font-size: x-large;
+}
+
+li .nav-link {
+  color: #ffffff;
+}
+
+#foto2 {
+  width: 480px;
+  height: 480px;
+  margin-left: 2rem;
+  border-radius: 10px;
+}
+
+.btn {
+  margin-bottom: 2rem;
+}
+
+.shadow-container {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.primeraLinea {
+  padding: 3rem;
+}
+
+.segundaLinea {
+  padding: 3rem;
+}
+
+#tituloServicios {
+  text-align: center;
+}
+
+.clientesp {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#fotoClienteUno {
+  margin-top: 3rem;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+#fotoClienteDos {
+  margin-top: 3rem;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+#fotoClienteTres {
+  margin-top: 3rem;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.contenidoContacto {
+  text-align: center;
+  align-items: center;
+}
+
+#sectionContacto {
+  margin-top: 4rem;
+}
+
+#tituloContacto {
+  color: white;
+  text-align: center;
+  margin-top: rem;
+}
+
+@media (max-width: 767px) {
+  .shadow-container {
+    margin-bottom: 20px;
+  }
+  .shadow-container .primeraLinea {
+    padding-bottom: 0%;
+  }
+}
+
+@media (max-width: 530px) {
+  #foto2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 0%;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 376px) {
+  #foto2 {
+    width: 330px;
+    height: 330px;
+  }
+}
+@media (max-width: 350px) {
+  #foto2 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 325px) {
+  footer .row.text-center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

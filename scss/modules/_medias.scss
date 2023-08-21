@@ -1,0 +1,32 @@
+.shadow-container{
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+    .primeraLinea {
+      padding-bottom: 0%;
+    }
+  }
+}
+#foto2 {
+  @media (max-width: 530px) {
+    width: 400px;
+    height: 400px;
+    margin-left: 0%;
+    margin-bottom: 1rem;
+  }
+  @media (max-width: 376px){
+    width: 330px;
+    height: 330px;
+  }
+  @media (max-width: 350px){
+    width: 300px;
+    height: 300px;
+  }
+}
+footer {
+    @media (max-width: 325px) {
+        .row.text-center {
+          align-items: center;
+          justify-content: center;
+        }
+      }     
+}
