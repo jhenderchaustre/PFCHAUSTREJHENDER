@@ -25,6 +25,13 @@ li .nav-link {
   margin-bottom: 3rem;
 }
 
+#logosProg {
+  width: 300px;
+  height: 100px;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
 #foto2 {
   width: 480px;
   height: 480px;
