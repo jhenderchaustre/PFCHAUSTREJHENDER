@@ -124,6 +124,19 @@ li .nav-link {
 }
 
 @media (max-width: 770px) {
+  #logosProg {
+    margin-left: 250px;
+  }
+}
+@media (max-width: 770px) and (max-width: 325px) {
+  #logosProg {
+    margin-left: 2rem;
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 770px) {
   #titulos {
     margin-top: 100px;
     margin-left: 280px;
