@@ -43,7 +43,7 @@ li .nav-link {
 
 .btn {
   margin-bottom: 2rem;
-  background-color: #280044;
+  background-color: #008187;
   border-color: white;
 }
 
@@ -73,30 +73,32 @@ li .nav-link {
 
 #tituloServicios {
   text-align: start;
-  color: #280044;
+  color: #008187;
   position: relative;
   top: 70px;
   margin-left: 3rem;
   font-size: 3rem;
-  -webkit-text-stroke: 3px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px white;
 }
 
 #bannerClientes {
-  background-image: url(../images/ClientesBanner.png);
+  background-image: url(../images/ClientesBanner.webp);
   background-size: cover;
-  width: 100%;
+  width: 98%;
   height: 300px;
   border-radius: 20px;
 }
 
 #tituloClientes {
   text-align: start;
-  color: #280044;
+  color: #008187;
   position: relative;
   top: 70px;
   margin-left: 3rem;
   font-size: 3rem;
-  -webkit-text-stroke: 3px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px white;
 }
 
 .clientesp {
@@ -218,6 +220,12 @@ li .nav-link {
   #foto2 {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media (max-width: 325px) {
+  #bannerClientes {
+    height: 120px;
   }
 }
 

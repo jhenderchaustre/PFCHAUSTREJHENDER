@@ -56,6 +56,11 @@
     height: 300px;
   }
 }
+#bannerClientes {
+  @media (max-width: 325px){
+    height: 120px;
+  }
+}
 footer {
     @media (max-width: 325px) {
         .row.text-center {

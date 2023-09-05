@@ -1,7 +1,7 @@
 #bannerClientes {
-    background-image: url(../images/ClientesBanner.png);
+    background-image: url(../images/ClientesBanner.webp);
     background-size: cover;
-    width: 100%;
+    width: 98%;
     height: 300px; 
     border-radius: 20px;
 }
@@ -12,7 +12,8 @@
     top: 70px;
     margin-left: 3rem;
     font-size: 3rem;
-    -webkit-text-stroke: 3px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
 }
 .clientesp{
     background-color: rgba(255, 255, 255, .4);
