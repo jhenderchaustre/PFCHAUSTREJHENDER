@@ -230,6 +230,26 @@ li .nav-link {
 }
 
 @media (max-width: 325px) {
+  #bannerServicios {
+    height: 120px;
+  }
+}
+
+@media (max-width: 325px) {
+  #tituloClientes {
+    font-size: 2.2rem;
+    padding-left: 28px;
+  }
+}
+
+@media (max-width: 325px) {
+  #tituloServicios {
+    font-size: 2.2rem;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 325px) {
   footer .row.text-center {
     align-items: center;
     justify-content: center;
