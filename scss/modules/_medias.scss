@@ -85,3 +85,22 @@ footer {
         }
       }     
 }
+.bLogo {
+  display: none;
+}
+
+.bini {
+  display: none;
+}
+
+@media (min-width: 770px) {
+  .bLogo {
+    display: block;
+  }
+}
+
+@media (max-width: 769px) {
+  .bini {
+    display: block;
+  }
+}
